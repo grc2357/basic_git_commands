@@ -1,6 +1,5 @@
 lst = []
 
-for i in range(10):
-    lst.append(i*i - 1)
+lst = [i**2 -1 for i in range(10)]
 
 print(lst)
