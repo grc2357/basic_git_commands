@@ -8,3 +8,6 @@ def abs(x):
     if x > 0:
         return x
     return -x
+
+def mod(x, y):
+    return x%y
